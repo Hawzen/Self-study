@@ -1,0 +1,138 @@
+ * If you create a new object using a generic data type, you have to cast it "(T[]) new Object[n];"	
+ * When finding O() of a method in an ADT, consult the implementation of that ADT in the slides, and not what you think it'll be (e.g. LinkedList's Remove which is (1))
+ * An ArrayList in Java collections  is a doublylinked list 
+ * Heap Priority Queue isn't stable
+ADTs:
+	List:
+		public boolean 	full( );
+		public boolean 	empty( );
+		public boolean 	last( );
+		public void 	insert(T e);
+		public void 	remove( );
+		public void 	findFirst();
+		public void 	findNext();
+		public void 	update(T e);
+		public T 		retrieve( );
+		
+		* If you insert in a list, the current changes to the inserted elemenet.
+		* If you insert in a list, the inserted element is after the current.
+		* If you delete the last element, the current becomes the first element.
+		 
+	Queue:
+		public int 		length( );
+		public boolean 	full( );
+		public void 	enqueue(T e);
+		public T 		serve( );
+		* In Queue ADT there is length(), so LinkedQueue should keep track of size. But ADT list doesn't 
+ 
+	Stack:
+		public T pop( );
+		public void push(T e); 
+		public boolean empty( ); 
+		public boolean full( );
+
+	Binary Tree:
+		Insert
+		Delete 
+		Update
+		Retrive 
+		Find 
+		Full
+		Empty
+
+	BST:
+		Update 		(int key, Type e, boolean updated) 
+		Remove_Key 	(int tkey, boolean removed) 
+		Insert 		(int k, Type e, boolean inserted) 
+		FindKey 	(int tkey, boolean found)
+		Traverse 	(Order ord) 
+		DeleteSub 	() 
+		Retrieve 	(Type e) 
+		Empty 		(boolean empty)
+		Full 		(boolean full)
+
+		* in BST `find` does not alter the value of current if the method is unsuccessful
+
+	ِAVL:
+		Balance:
+			Right subtree hight - left subtree hight (right - left)
+
+		Insert:
+			Case 1 & 2:
+				When any balance after insertion is 2 > Balance > -2
+				Do nothing
+			Case 3:
+				When any balance after insertion is 2 <= Balance or -2 >= Balance
+				1- Pick Pivot:
+					Pick imbalanced nodes, starting bottom up
+				2- Determine Rotation type:
+					Single if the pivot and child's sign match (Which child?)
+					Double if the pivot and child's sign don't match (Which child?)
+				3- Perform Roation:
+					If single then perform pivot's roation
+					If double then perform child's rotation then pivot's
+				4- Rotation angle:
+					Right if balance is negative
+					Left if balance is positive
+		
+		Delete:
+			If node has children, then replace it with the minimum of the right subtree
+			Check for balance by following insert's Case rules
+
+
+	B+:
+		Rules:
+			1- Root is either a leaf or has 2 to M children.
+			2- Non-leaf nodes (except the root) 
+				* have ⌈M/2⌉/ to M children 
+				  which means they can have from ⌈M/2⌉-1 to M-1 keys stored in them.
+			3- Non-leaf store at the most M-1 keys to guide search; key i represents the smallest key in the subtree i + 1.
+			4- All leaves are at the same depth or level
+			5- Data elements are stored in the leaves only and have between ⌈M/2⌉ and M data elements.
+
+		Domains:
+			Root Children: [0, M] - {1}
+			Middle Children: [⌈M/2⌉, M] 
+			Leaf Elements: [1, M]
+
+	Collection:
+		Most general data structure in collections. A LinkedList is a collection, a HashMap is also a collection
+		Interface:
+			size
+			add
+			toString
+			remove
+			contains
+			iterator
+
+		Maps:
+			Interface:
+				put (updates on duplicate keys)
+				get
+				keyset (used to get all keys)
+				remove
+
+			When using treemap you should implement CompareTo
+			When using hashmap you should implement hashCode
+
+	Iterators:
+		ListIterator:
+			Add adds after the current position
+			The iterator will move past the new node
+			You cannot call remove twice
+
+		SetIterator:
+			Has no order
+
+
+Sorting:
+	Sort 			OW		OA			OS		In-place	Stable 	 Description
+	Insertion Sort: n²		n²			1		T 			T 		 Builds a sorted array from left 
+	Selection Sort: n²		n²			1		T 			F 		 Finds minimums
+	Bubble Sort:	n²		n²			1		T 			T 		 Bubbles elements to right
+	Merge Sort:		nlogn	nlogn		n 		F 			T 		 Splits array in twos and merges
+	Quick Sort: 	n² 		nlogn 		1 		T 			F  		 Sort based on a pivots
+	Bucket Sort: 	n² 		n+n²/k+k	n+k 	F 			T 		 Distribute and sort seperately
+	Counting Sort: 	n+m 	n+m 		n+m 	F 			T 		 Builds frequency array then rebuilds array
+	Radix Sort:		kn 		kn 			n+b 	F 			T 		 Sort according to each digit for every digit
+	Heap Sort:		logn    nlogn       1       T           F        Heapify the list then deletes elements 
