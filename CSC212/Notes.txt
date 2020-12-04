@@ -92,8 +92,8 @@ ADTs:
 
 		Domains:
 			Root Children: [0, M] - {1}
-			Middle Children: [⌈M/2⌉, M] 
-			Leaf Elements: [1, M]
+			Middle Children: [⌈M/2⌉-1, M-1] 
+			Leaf Elements: [⌈M/2⌉, M]
 
 	Collection:
 		Most general data structure in collections. A LinkedList is a collection, a HashMap is also a collection
