@@ -1,6 +1,7 @@
  * If you create a new object using a generic data type, you have to cast it "(T[]) new Object[n];"	
  * When finding O() of a method in an ADT, consult the implementation of that ADT in the slides, and not what you think it'll be (e.g. LinkedList's Remove which is (1))
- * An ArrayList in Java collections  is a doublylinked list 
+ * A root in B+ trees can contain data if the tree is small enough
+ * An ArrayList in Java collections is a doublylinked list 
  * Heap Priority Queue isn't stable
 ADTs:
 	List:
