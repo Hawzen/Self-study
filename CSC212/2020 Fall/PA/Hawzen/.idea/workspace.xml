@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93cf1d4e-e925-463c-846c-27bfe6acf6cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/PA/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/PA/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kKHOzWnX7UIuV30e0sKN3prz7Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="PA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93cf1d4e-e925-463c-846c-27bfe6acf6cd" name="Default Changelist" comment="" />
+      <created>1605442348043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605442348043</updated>
+      <workItem from="1605442382274" duration="22616000" />
+      <workItem from="1606714703938" duration="28875000" />
+      <workItem from="1606827305503" duration="1207000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add getNbComp">
+      <created>1606745558954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606745558954</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add exists method">
+      <created>1606746226966</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606746226966</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix PhotoManger">
+      <created>1606747445713</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606747445714</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finalize Test and album with changing attributes to private">
+      <created>1606758861712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606758861712</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add getNbComp" />
+    <MESSAGE value="Add exists method" />
+    <MESSAGE value="Fix PhotoManger" />
+    <MESSAGE value="Finalize Test and album with changing attributes to private" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalize Test and album with changing attributes to private" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1605457816334">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1605457816334" />
+    <state x="808" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1605444832620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605444832620" />
+    <state x="1154" y="389" key="#xdebugger.evaluate" timestamp="1605466549621">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1154" y="389" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1605466549621" />
+    <state x="585" y="109" key="CommitChangelistDialog2" timestamp="1606758859471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606758859471" />
+    <state x="635" y="229" key="FileChooserDialogImpl" timestamp="1605457812608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="635" y="229" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605457812608" />
+    <state width="1877" height="233" key="GridCell.Tab.0.bottom" timestamp="1606765115890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606765115890" />
+    <state width="1877" height="233" key="GridCell.Tab.0.center" timestamp="1606765115890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="233" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606765115890" />
+    <state width="1877" height="233" key="GridCell.Tab.0.left" timestamp="1606765115890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="233" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606765115890" />
+    <state width="1877" height="233" key="GridCell.Tab.0.right" timestamp="1606765115890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="233" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606765115890" />
+    <state width="1877" height="606" key="GridCell.Tab.1.bottom" timestamp="1606762610458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="606" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606762610458" />
+    <state width="1877" height="606" key="GridCell.Tab.1.center" timestamp="1606762610457">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="606" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606762610457" />
+    <state width="1877" height="606" key="GridCell.Tab.1.left" timestamp="1606762610457">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="606" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606762610457" />
+    <state width="1877" height="606" key="GridCell.Tab.1.right" timestamp="1606762610457">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="606" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606762610457" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1605457983934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605457983934" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1606827311480">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606827311480" />
+    <state x="690" y="285" key="extract.method.dialog" timestamp="1605451704608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="285" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605451704608" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606724214674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606724214674" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PA$Test.ic" NAME="Test Coverage Results" MODIFIED="1605459437244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

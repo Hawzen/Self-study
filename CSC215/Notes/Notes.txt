@@ -1,0 +1,109 @@
+always include in your complilation -o name -ansi -Wall
+short long signed unsigned
+
+test < input.txt > output.txt
+It will input the input automatically and write out the output in output.txt. 
+You can also do 
+test | program
+Which will feed test's output directly into program
+
+int *x, *y is two pointers
+
+When defining an Enum the defualt value of any constant is the value of the one before it +1, 
+ and if you didn't specify a starting value, it'll start from zero enum Vals {val, val2 = 20, val3} (val3 == 21)
+
+void pointers should always be casted before derefrencing
+
+Struct VS Array:
+	int a[] = {1, 2}
+	int b[] = {6, 6}
+	a = b /* ILLEGAL */
+	/* Never assign an array */
+
+	struct Point {
+		int x;
+		int y;
+	}
+
+	struct Point p1, p2 = {1, 2}
+	p1 = p2 /* LEGAL */
+
+
+struct initializes values to zeros
+
+Image is about flags, width, length Notes/Notes0.png
+
+Don't forget about storage classes:
+	auto,
+	register,
+	static,
+	extern
+
+Makefile:
+	<target> [more targets] : <dependencies>
+	<tab>	<commands>
+
+	if a dependency is changed since the last compilation, makefile does that command first
+	you can access a particular section by (in cmd): make <target>
+
+<string.h> Notes/Notes1.png
+
+Omitting dimensions in multidimensional arrays Notes/Notes2.png
+
+IO:
+	Opening & Closing Files:
+		FILE *fopen(char *filename, char *mode) 
+		int fclose(FILE *fp) 
+
+		Modes:
+		r:  For reading. File must exist.
+		w:  Creates empty file for writing.
+		   	If file exists, it content is erased.
+		a:  Appends to an existent file. 
+		   	Creates one if not exist.
+		r+: For reading & writing. File must exist
+		w+: Creates a file for reading & writing.
+		a+: For reading and appending.
+	
+	Writing Text:	
+		int 	putc 	(int ch, FILE *fp) 
+		int 	fputs 	(char *line, FILE *stream) 
+		int 	fprintf (FILE *stream, const char *format, ...)
+		______________ std only ⇓ ______________
+		int 	putchar (int char)
+		int 	puts 	(const char *str) 
+		int 	printf 	(const char *format, ...) 
+
+	Reading Text:
+		int 	getc 	(FILE* stream) 
+		char* 	fgets 	(char *line, int maxlen, FILE *fp) // Stops when reaching 0 or /n
+		int 	fscanf 	(FILE *fp, char *format, ...) 
+		______________ std only ⇓ ______________
+		int 	getchar (void) 
+		char* 	gets 	(char *str) 
+		int 	scanf 	(const char *format, ...) 
+
+	Reading & Writing Bytes:
+		size_t fwrite 	(const void *ptr, size_t size, size_t nmemb, FILE *stream)
+		size_t fread 	(void *ptr, size_t size, size_t nmemb, FILE *stream)
+
+	Errors:
+		void perror (const char *str) // Connected to stderr
+
+	Strings:
+		int sprintf (char *str, char *format, ...) // Like printf but writes in strings
+		int sscanf 	(char *str, char *format, ..) // Like scanf but scans strings
+
+	Streams:
+		void 	rewind 	(FILE *stream)
+		int 	fseek  	(FILE *stream, long int offset, int whence)
+		int 	ftell	(FILE *stream)
+		int 	ungetc 	(int ch, FILE *stream) 
+
+	Files:
+		int remove	(const char*filename)
+		int rename	(const char*old_filename, const char *new_filename)
+
+NOTE:
+#if !defined List
+#define List
