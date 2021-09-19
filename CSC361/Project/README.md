@@ -1,0 +1,1 @@
+Check out https://github.com/Hawzen/Othello-Agents
