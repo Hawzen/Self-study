@@ -1,2 +1,2 @@
 # Self-study
-computer sciecne lets go
+A documentation of my bachelor's degree at KSU
